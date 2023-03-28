@@ -88,7 +88,7 @@ public class Order implements Serializable {
 	public Set<OrderItem> getItems(){
 		return itens;
 	}
-
+	
 	@Override
 	public int hashCode() {
 		return Objects.hash(id);
